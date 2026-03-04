@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg
+.venv/
+venv/
+env/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Excluded data
+*Partial*.csv
+
+# References folder
+references/
+
+# Duplicate notebooks (keep only notebook.ipynb per group)
+groups/S5/S5 Notebook.ipynb
+groups/S6/S6 Notebook.ipynb
+groups/Grigorchuk/Grigorchuk Notebook.ipynb
+groups/ThompsonF/Thompsonf Notebook.ipynb
+groups/BS12_subset_sum/Bs12 Notebook.ipynb
+groups/BS12_subset_sum/BS12 Data.ipynb
+groups/OutF2/outf2 notebook.ipynb
+
+# Claude config
+.claude/
